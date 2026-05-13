@@ -1,0 +1,425 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Majd Amer Sultan Aldawsari | CV</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: linear-gradient(to right, #dbeafe, #f8fafc);
+      color: #1e293b;
+      padding: 30px;
+    }
+
+    .cv-container {
+      max-width: 1100px;
+      margin: auto;
+      background: white;
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+
+    /* SIDEBAR */
+    .sidebar {
+      background: linear-gradient(180deg, #0f172a, #1d4ed8);
+      color: white;
+      padding: 40px 30px;
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .profile-circle {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #38bdf8, #ffffff);
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      font-weight: bold;
+      color: #0f172a;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+      font-size: 26px;
+      line-height: 1.3;
+      margin-bottom: 8px;
+    }
+
+    .profile h2 {
+      font-size: 16px;
+      font-weight: normal;
+      color: #cbd5e1;
+    }
+
+    .sidebar-section {
+      margin-bottom: 35px;
+    }
+
+    .sidebar-section h3 {
+      font-size: 18px;
+      margin-bottom: 15px;
+      color: #38bdf8;
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+      padding-bottom: 8px;
+    }
+
+    .sidebar-section p,
+    .sidebar-section li,
+    .sidebar-section a {
+      font-size: 14px;
+      color: #f8fafc;
+      text-decoration: none;
+      line-height: 1.8;
+    }
+
+    .sidebar-section ul {
+      list-style: none;
+    }
+
+    /* MAIN CONTENT */
+    .main-content {
+      padding: 45px;
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section h2 {
+      font-size: 24px;
+      color: #1d4ed8;
+      margin-bottom: 15px;
+      border-left: 5px solid #38bdf8;
+      padding-left: 12px;
+    }
+
+    .section p {
+      line-height: 1.8;
+      color: #334155;
+    }
+
+    .education-box {
+      background: #f8fafc;
+      padding: 18px;
+      border-left: 4px solid #1d4ed8;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .education-box h3 {
+      font-size: 18px;
+      color: #0f172a;
+      margin-bottom: 6px;
+    }
+
+    /* SKILLS */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+    }
+
+    .skill {
+      background: linear-gradient(135deg, #1d4ed8, #38bdf8);
+      color: white;
+      text-align: center;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+
+    .skill:hover {
+      transform: scale(1.05);
+    }
+
+    /* CERTIFICATIONS */
+    .certifications-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .cert-card {
+      background: #f8fafc;
+      border-left: 4px solid #1d4ed8;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+      transition: 0.3s;
+    }
+
+    .cert-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .cert-card img {
+      width: 100%;
+      height: 170px;
+      object-fit: cover;
+    }
+
+    .cert-content {
+      padding: 18px;
+    }
+
+    .cert-content h3 {
+      font-size: 18px;
+      color: #0f172a;
+      margin-bottom: 8px;
+    }
+
+    .cert-content p {
+      color: #334155;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0f172a;
+      color: white;
+      margin-top: 20px;
+    }
+
+    /* RESPONSIVE */
+    @media(max-width: 900px) {
+      .cv-container {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        text-align: center;
+      }
+
+      .main-content {
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="cv-container">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+      <div class="profile">
+        <div class="profile-circle">M</div>
+        <h1>Majd Amer Sultan Aldawsari</h1>
+        <h2>Computer Science Student</h2>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Contact</h3>
+        <p>Address: Riyadh, Saudi Arabia</p>
+        <p>Phone: +966557109641</p>
+        <p>Email: mlll782389@gmail.com</p>
+        <p>
+          <a href="https://www.linkedin.com/in/majd-a-aldawsari-5370963ab?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+            LinkedIn Profile
+          </a>
+        </p>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Personal Details</h3>
+        <p>Birth Date: 13 February 2005</p>
+      </div>
+
+      <div class="sidebar-section">
+        <h3>Languages</h3>
+        <ul>
+          <li>Arabic: Native</li>
+          <li>English: Intermediate</li>
+        </ul>
+      </div>
+
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- PROFILE -->
+      <section class="section">
+        <h2>Profile</h2>
+        <p>
+          Motivated Computer Science student with strong technical knowledge in
+          programming, web development, networking, and database systems.
+          Passionate about creating professional digital solutions, enhancing
+          technical skills, and contributing to innovative technology projects.
+        </p>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="section">
+        <h2>Education</h2>
+        <div class="education-box">
+          <h3>Computer Science Major</h3>
+          <p>Shaqra University – Riyadh, Saudi Arabia</p>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">Python</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">Database MYSQL</div>
+		  <div class="skill">Networking</div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="section">
+        <h2>Certifications</h2>
+
+        <div class="certifications-grid">
+
+          
+          <div class="cert-card">
+            <img src="images/packet-tracer.jpg" alt="Introduction to Packet Tracer">
+            <div class="cert-content">
+              <h3>Cisco Networking Academy</h3>
+              <p>Introduction to Packet Tracer</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <img src="images/python-ES.jpg" alt="Python Essentials 1">
+            <div class="cert-content">
+              <h3>Cisco Networking Academy</h3>
+              <p>python Essentials 1</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <img src="images/oracle.jpg" alt="Database Foundations">
+            <div class="cert-content">
+              <h3>Oracle Academy</h3>
+              <p>Database Foundations</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <img src="images/basic-cour.jpg" alt="Coursera Cisco Networking">
+            <div class="cert-content">
+              <h3>Coursera</h3>
+              <p>Basics of Cisco Networking</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <img src="images/htmlCourse.jpg" alt="HTML Essentials">
+            <div class="cert-content">
+              <h3>Cisco Networking Academy</h3>
+              <p>HTML Essentials</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <footer>
+    © 2026 Majd Amer Sultan Aldawsari | CV Website
+  </footer>
+
+  <script>
+    /* SECTION REVEAL */
+    document.addEventListener("DOMContentLoaded", function () {
+      const sections = document.querySelectorAll(".section, .sidebar-section, .education-box, .cert-card, .skill");
+
+      const revealOnScroll = () => {
+        sections.forEach(section => {
+          const sectionTop = section.getBoundingClientRect().top;
+          const triggerPoint = window.innerHeight - 80;
+
+          if (sectionTop < triggerPoint) {
+            section.style.opacity = "1";
+            section.style.transform = "translateY(0)";
+          }
+        });
+      };
+
+      sections.forEach(section => {
+        section.style.opacity = "0";
+        section.style.transform = "translateY(30px)";
+        section.style.transition = "all 0.7s ease";
+      });
+
+      window.addEventListener("scroll", revealOnScroll);
+      revealOnScroll();
+    });
+
+    /* PROFILE EFFECT */
+    const profileCircle = document.querySelector(".profile-circle");
+
+    profileCircle.addEventListener("mouseenter", function () {
+      this.style.transform = "rotate(360deg) scale(1.1)";
+      this.style.transition = "0.8s";
+    });
+
+    profileCircle.addEventListener("mouseleave", function () {
+      this.style.transform = "rotate(0deg) scale(1)";
+    });
+
+    /* SKILL ALERT */
+    const skills = document.querySelectorAll(".skill");
+
+    skills.forEach(skill => {
+      skill.addEventListener("click", function () {
+        alert("Skill Selected: " + this.textContent);
+      });
+    });
+
+    /* TYPING EFFECT */
+    const title = document.querySelector(".profile h2");
+    const text = "Computer Science Student";
+    let index = 0;
+
+    title.textContent = "";
+
+    function typeEffect() {
+      if (index < text.length) {
+        title.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeEffect, 100);
+      }
+    }
+
+    typeEffect();
+  </script>
+
+</body>
+</html>
+
