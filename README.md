@@ -1,0 +1,2 @@
+# majdcv
+website CV project
